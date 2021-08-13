@@ -19,7 +19,7 @@
       background-repeat: no-repeat;
       width: 80px;
       height: 49px;
-      @include replaceText('/assets/images/logo-new_工作區域\ 1.png');
+      @include replaceText('./assets/images/logo-new_工作區域\ 1.png');
       @include mobile{
         width: 48px;
         height: 30px;
