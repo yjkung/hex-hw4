@@ -81,21 +81,6 @@ img {
       -ms-flex-align: center;
           align-items: center; }
 
-.mr-lg-4 {
-  margin-right: 32px; }
-
-.mr-lg-6 {
-  margin-right: 48px; }
-
-.mr-lg-8 {
-  margin-right: 64px; }
-
-.mb-lg-3 {
-  margin-bottom: 24px; }
-
-.mb-lg-4 {
-  margin-bottom: 32px; }
-
 .navBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,7 +139,7 @@ img {
     background-repeat: no-repeat;
     width: 80px;
     height: 49px;
-    background-image: url("./assets/images/logo-new_工作區域 1.png");
+    background-image: url("../images/logo-new_工作區域1.png");
     display: block;
     overflow: hidden;
     text-indent: 101%;
@@ -205,6 +190,8 @@ img {
   @media (max-width: 767px) {
     .footer .footerBox .footerNav .navBox {
       display: none; } }
+  .footer .footerBox .footerNav .navBox .footerNavItem {
+    margin-right: 48px; }
   .footer .footerBox .sns {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,9 +205,12 @@ img {
     @media (max-width: 992px) {
       .footer .footerBox .sns img {
         width: 24px; } }
+    .footer .footerBox .sns .snsItem {
+      margin-right: 32px; }
   .footer .footerBox .contact {
     font-size: 2.25rem;
-    border-bottom: 1px solid #fff; }
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px; }
     @media (max-width: 767px) {
       .footer .footerBox .contact {
         border: none;
@@ -235,8 +225,10 @@ img {
           width: 15px;
           margin-bottom: 0; } }
     .footer .footerBox .contact .h4 {
-      display: inline-block; }
+      display: inline-block;
+      margin-bottom: 24px; }
   .footer .footerBox .bottomInfo {
+    margin-top: 32px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
