@@ -12,8 +12,8 @@
 };
 
 // 圖片取代文字
-@mixin replaceText($url){
-  background-image:url($url);
+@mixin replaceText{
+  background-image:url("../images/logo-new_工作區域1.png");
   display: block;
   overflow: hidden;
   text-indent: 101%;

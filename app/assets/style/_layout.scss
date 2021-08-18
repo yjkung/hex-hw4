@@ -19,7 +19,7 @@
       background-repeat: no-repeat;
       width: 80px;
       height: 49px;
-      @include replaceText('./assets/images/logo-new_工作區域\ 1.png');
+      @include replaceText;
       @include mobile{
         width: 48px;
         height: 30px;
@@ -40,11 +40,11 @@
     }
     // li前三個要有右邊 margin
     .navItem-mr{
-      margin-right: $mr-lg-8;
+      margin-right: $mg-8;
     }
     .navItem-mr,.navItem-mr-sm{
       @include mobile{
-        margin-right: $mr-sm-0;
+        margin-right: $mg-0;
         width: 50%;
         border: 1px solid #fff;
       }
@@ -73,6 +73,9 @@
         @include mobile{
           display: none;
         }
+        .footerNavItem{
+          margin-right: $mg-6;
+        }
       }
     }
     .sns{
@@ -85,11 +88,15 @@
         @include pad{
           width: 24px;
         }
-     } 
+      }
+      .snsItem{
+        margin-right: $mg-4;
+      } 
     } 
     .contact{
       font-size: $h4;
       border-bottom: 1px solid #fff;
+      margin-bottom: $mg-4;
       @include mobile{
         border: none;
         font-size: $font-size-base;
@@ -106,10 +113,12 @@
       }
       .h4{
         display: inline-block;
+        margin-bottom: $mg-3;
       }
     }
 
     .bottomInfo{
+      margin-top: $mg-4;
       @include flexJcsb;
       @include mobile{
         display: block;
